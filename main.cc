@@ -213,7 +213,7 @@ int main() {
     GLFWwindow* window = glfwCreateWindow(800, 800, "OpenGL", NULL, NULL);
 
     glfwMakeContextCurrent(window);
-    glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);  
+    //glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);  
     glfwSetCursorPosCallback(window, mouse_callback);  
 
     glewInit();
